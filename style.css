@@ -1,0 +1,150 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgb(61, 61, 61) 50%,
+    rgb(102, 101, 101) 100%
+  );
+}
+.container {
+  width: 1336px;
+  height: 768px;
+  background: #dce4e3;
+  display: flex;
+}
+aside {
+  width: 78px;
+  height: 768px;
+  background: #18c29c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: width 0.5s ease;
+}
+.search {
+  border-radius: 12px;
+  background: var(--Light-grey, #dce4e3);
+  padding: 13px;
+  width: auto;
+  height: 23px;
+  display: flex;
+  transition: width 0.5s ease;
+}
+input {
+  border: none;
+  background: transparent;
+  display: none;
+}
+.busca {
+  margin-top: 26px;
+  width: auto;
+  display: flex;
+  gap: 119px;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 49px;
+  margin-right: 44px;
+}
+.div {
+  display: none;
+}
+.dd {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  transition-duration: 5s;
+}
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 34px;
+  margin-bottom: 300px;
+  overflow: hidden;
+}
+.links {
+  width: 222px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: auto;
+  margin: 0 14px;
+}
+.c {
+  gap: 13px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 30px;
+}
+p {
+  display: none;
+  margin: 0;
+}
+.paragraph {
+  display: flex;
+}
+.b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.a {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 13px;
+  text-decoration: none;
+  color: var(--Dark-green, #084236);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 0;
+}
+.btn1 {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 0;
+}
+.expanded {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  transition: width 0.5s ease;
+  margin-right: 30px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+  background: rgba(220, 228, 227, 0.6);
+}
+h1 {
+  color: #084236;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 20px;
+}
